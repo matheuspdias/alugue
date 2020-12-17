@@ -12,6 +12,8 @@ export const Container = styled.ImageBackground`
     marginTop: 20px;
 `;
 
+export const Touchable = styled.TouchableOpacity``;
+
 export const NameHouse = styled.Text`
     fontWeight: bold;
     color: #FFF;

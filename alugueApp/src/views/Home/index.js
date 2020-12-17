@@ -60,14 +60,17 @@ export default () => {
             <S.Scroller horizontal showsHorizontalScrollIndicator={false}>
                 <House
                     cover={require('../../assets/images/house4.jpg')}
+                    onPress={() => navigation.navigate('Detail')}
                 />
 
                 <House
                     cover={require('../../assets/images/house5.jpg')}
+                    onPress={() => navigation.navigate('Detail')}
                 />
 
                 <House
                     cover={require('../../assets/images/house6.jpg')}
+                    onPress={() => navigation.navigate('Detail')}
                 />
             </S.Scroller>
             
@@ -78,18 +81,21 @@ export default () => {
                     cover={require('../../assets/images/house1.jpg')}
                     name="Casa São Paulo"
                     offer="25%"
+                    onPress={() => navigation.navigate('Detail')}
                 />
 
                 <Recommended 
                     cover={require('../../assets/images/house4.jpg')}
                     name="Casa Floripa"
                     offer="15%"
+                    onPress={() => navigation.navigate('Detail')}
                 />
 
                 <Recommended 
                     cover={require('../../assets/images/house6.jpg')}
                     name="Rancho Praia"
                     offer="10%"
+                    onPress={() => navigation.navigate('Detail')}
                 />
             </S.Scroller>
         </S.ContainerScroll>

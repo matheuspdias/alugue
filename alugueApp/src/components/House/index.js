@@ -3,7 +3,7 @@ import * as S from './styles';
 
 export default (props) => {
     return (
-        <S.Container>
+        <S.Container onPress={props.onPress}>
             <S.View>
                 <S.Cover 
                     source={props.cover}
