@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 
 import New from '../../components/New';
 import House from '../../components/House';
+import Recommended from '../../components/Recommended';
 
 export default () => {
     const navigation = useNavigation();
@@ -67,6 +68,28 @@ export default () => {
 
                 <House
                     cover={require('../../assets/images/house6.jpg')}
+                />
+            </S.Scroller>
+            
+            <S.Title style={{marginTop: 20}}>Dica do dia</S.Title>
+
+            <S.Scroller horizontal showsHorizontalScrollIndicator={false}> 
+                <Recommended 
+                    cover={require('../../assets/images/house1.jpg')}
+                    name="Casa São Paulo"
+                    offer="25%"
+                />
+
+                <Recommended 
+                    cover={require('../../assets/images/house4.jpg')}
+                    name="Casa Floripa"
+                    offer="15%"
+                />
+
+                <Recommended 
+                    cover={require('../../assets/images/house6.jpg')}
+                    name="Rancho Praia"
+                    offer="10%"
                 />
             </S.Scroller>
         </S.ContainerScroll>
