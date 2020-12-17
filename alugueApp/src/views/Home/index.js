@@ -4,6 +4,7 @@ import { Search } from 'react-native-feather';
 import { useNavigation } from '@react-navigation/native';
 
 import New from '../../components/New';
+import House from '../../components/House';
 
 export default () => {
     const navigation = useNavigation();
@@ -48,6 +49,24 @@ export default () => {
                     name="Casa Floripa"
                     description="Casa nova uma quadra do mar, lugar seguro e monitorado 24horas."
                     onPress={() => navigation.navigate('Detail')}
+                />
+            </S.Scroller>
+        
+            <S.ViewProx>
+                <S.Title style={{marginTop:20}}>Proximo de você</S.Title>
+            </S.ViewProx>
+
+            <S.Scroller horizontal showsHorizontalScrollIndicator={false}>
+                <House
+                    cover={require('../../assets/images/house4.jpg')}
+                />
+
+                <House
+                    cover={require('../../assets/images/house5.jpg')}
+                />
+
+                <House
+                    cover={require('../../assets/images/house6.jpg')}
                 />
             </S.Scroller>
         </S.ContainerScroll>

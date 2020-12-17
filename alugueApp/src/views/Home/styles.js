@@ -50,3 +50,9 @@ export const Title = styled.Text`
 export const Scroller = styled.ScrollView`
     paddingHorizontal: 15px;
 `;
+
+export const ViewProx = styled.View`
+    flexDirection: row;
+    marginBottom: 10px;
+    alignItems: center;
+`;
