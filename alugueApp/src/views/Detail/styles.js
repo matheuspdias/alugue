@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+export const Container = styled.ScrollView`
     flex: 1;
     backgroundColor: #FFF;
 `;
@@ -52,6 +52,7 @@ export const Description = styled.Text`
 export const Scroller = styled.ScrollView`
     paddingHorizontal: 15px;
     marginTop: 35px;
+    marginBottom: 20px;
 `;
 
 export const Slide = styled.View`
