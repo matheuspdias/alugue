@@ -1,7 +1,7 @@
 <h1 align="center">
-    <img alt="Alugue" src="olxtemplate.png"  width="1000px" />
-    <br>Projeto fullstack OLX Clone<br/>
-    Laravel | ReactJS | React Native
+    <img alt="Alugue" src="alugueapp.png"  width="1000px" />
+    <br>App alugue frontend<br/>
+    React Native
 </h1> 
 
 <p align="center">
