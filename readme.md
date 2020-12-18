@@ -12,7 +12,7 @@
 
 ## :bookmark: Sobre
 
-O **Projeto** foi feita para treinar habilidades com a stack **javascript**.
+O **Projeto** foi feito para treinar habilidades front-end com a biblioteca **React Native**.
   
 
 
